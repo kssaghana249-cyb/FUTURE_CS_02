@@ -39,6 +39,15 @@ This project analyzes phishing email samples to identify malicious indicators, c
 5. Classified risk level based on findings  
 6. Provided prevention and awareness recommendations  
 
+---
+
+## Risk Classification Criteria
+
+| Risk Level | Description |
+|------------|------------|
+| Safe | Authenticated sender with no suspicious indicators |
+| Suspicious | Minor inconsistencies or unclear authentication |
+| Phishing | Domain mismatch, failed authentication, malicious intent |
 
 ---
 
@@ -77,3 +86,4 @@ All phishing email samples used in this report are publicly available examples o
 No real user data, credentials, or confidential information were accessed, stored, or shared.  
 
 This repository is intended solely for academic evaluation and cybersecurity awareness training.
+
